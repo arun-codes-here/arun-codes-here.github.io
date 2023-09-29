@@ -1,5 +1,4 @@
 :root {
-  /* variables */
   --cg-black: rgb(30, 32, 32);
   --cg-blue: rgb(36, 94, 255);
   --cg-grey: rgb(243, 243, 243);
@@ -18,10 +17,10 @@ body {
   padding: 0;
   margin: 0;
   font-family: monospace;
-  background-image: url("poly\ gif.gif"); /* Replace 'your-background.gif' with the path to your GIF */
-  background-size: cover; /* Scale the image to cover the entire viewport */
-  background-repeat: no-repeat; /* Prevent the image from repeating */
-  background-attachment: fixed; /* Keep the background fixed in place */
+  background-image: url("poly\ gif.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 p {
@@ -88,8 +87,8 @@ h1#main-title {
 }
 
 .navbar:in-range .nav-list {
-  opacity: 1; /* On hover, make it fully visible */
-  transform: translateY(0); /* Bring it down to its original position */
+  opacity: 1;
+  transform: translateY(0);
 }
 
 .navbar a {
@@ -131,7 +130,7 @@ main {
   justify-content: center;
   font-size: 32px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  opacity: 0; /* Start with 0 opacity */
+  opacity: 0;
   animation: fadeIn 1s ease forwards;
 }
 
@@ -147,7 +146,7 @@ main {
 .project-container {
   display: flex;
   flex-direction: column;
-  align-items: center; /* Center horizontally */
+  align-items: center;
   max-width: 100%;
   margin: 1em 0 2em 0;
 }
@@ -156,9 +155,6 @@ main {
   display: flex;
   flex-direction: row;
   max-width: 100%;
-  /* margin: 1em 0 2em 0; Remove margin from .project */
-  /* Debug border */
-  /* border: 2px solid blue; */
 }
 
 .learn-more {
@@ -236,7 +232,7 @@ main {
 }
 
 .project-details:hover {
-  transform: scale(1.1); /* Zoom in on hover */
+  transform: scale(1.1);
 }
 
 .project-name {
@@ -262,7 +258,6 @@ main {
 .about-image img {
   max-width: 300px;
   border-radius: 3px;
-  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); */
 }
 
 .about-text {
@@ -397,25 +392,25 @@ a:visited {
   color: purple;
 }
 .typewriter h2 {
-  overflow: hidden; /* Hide overflowing text */
-  border-right: 1px solid #333; /* Add a cursor effect */
-  white-space: nowrap; /* Prevent text from wrapping */
-  margin: 0 auto; /* Center the text */
-  letter-spacing: 2px; /* Adjust letter spacing for appearance */
+  overflow: hidden;
+  border-right: 1px solid #333;
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: 2px;
   animation: typing 4s steps(40), blink-caret 0.75s;
 }
 
 @keyframes typing {
   from {
-    width: 0; /* Start with no text */
+    width: 0;
   }
   to {
-    width: 100%; /* Fully display the text */
+    width: 100%;
   }
 }
 
 @keyframes blink-caret {
   50% {
-    border-color: transparent; /* Hide the cursor for half of the animation */
+    border-color: transparent;
   }
 }
