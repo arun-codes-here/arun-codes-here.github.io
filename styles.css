@@ -61,12 +61,13 @@ h1#main-title {
   align-items: center;
   text-align: center;
   float: inline-end;
-  background-color: var(--cg-black);
+  background-color: #ccd4cd;
   color: var(--cg-white);
   padding: 0px 0px;
 }
 
 .nav-list {
+  color: white;
   display: flex;
   flex-direction: row;
   position: relative;
@@ -126,6 +127,7 @@ main {
 }
 
 .page-title {
+  color:rgb(45, 154, 114)
   display: flex;
   justify-content: center;
   font-size: 32px;
